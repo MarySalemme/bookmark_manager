@@ -38,10 +38,23 @@ Structured
 Query
 Language
 
+
+SQL stands for Structured Query Language  
+SQL lets you access and manipulate databases  
 It's a standardized language used to communicate with databases based on the relational model.
 
-
-SQL examples for each CRUD action
+What can SQL do?
+- SQL can execute queries against a database
+- SQL can retrieve data from a database
+- SQL can insert records in a database
+- SQL can update records in a database
+- SQL can delete records from a database
+- SQL can create new databases
+- SQL can create new tables in a database
+- SQL can create stored procedures in a database
+- SQL can create views in a database
+- SQL can set permissions on tables, procedures, and views
+- SQL examples for each CRUD action
 ----
 Create => INSERT  
 ```SQL
@@ -53,9 +66,9 @@ SELECT * FROM <database name>;
 ```
 Update => UPDATE   
 ```SQL
-UPDATE <table name> SET <column name> = '<name>' WHERE <id> = <number>
+UPDATE <table name> SET <column name> = '<name>' WHERE <id> = <number>;
 ```
 Delete => DELETE  
 ```SQL
-DELETE FROM <table name> WHERE <id> = <number>
+DELETE FROM <table name> WHERE <id> = <number>;
 ```
