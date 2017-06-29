@@ -17,7 +17,6 @@ feature 'Add tags' do
     fill_in 'tags', with: 'shopping technology groceries'
     click_button('Add link')
     link = Link.first
-    expect(link.tags.map(&:name)).to include('shopping')
-    expect(link.tags.map(&:name)).to include('groceries')
+    expect(link.tags.map(&:name)).to include('shopping', 'groceries')
   end
 end
