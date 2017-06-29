@@ -8,6 +8,7 @@ gem 'dm-migrations'
 gem 'sinatra'
 gem 'thin'
 gem 'database_cleaner'
+gem 'rake'
 
 group :test do
   gem 'capybara'
