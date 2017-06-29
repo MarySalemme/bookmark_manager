@@ -9,7 +9,6 @@ feature 'Viewing links' do
 
   before :each do
       Link.create(url: 'http:www.//google.com',title: 'Google', tags: [Tag.first_or_create(name: 'search')])
-      Link.create(url: 'http:www.//amazon.com',title: 'Amazon', tags: [Tag.first_or_create(name: 'shopping')])
       Link.create(url: 'http:www.//bbc.com',title: 'BBC', tags: [Tag.first_or_create(name: 'news')])
       Link.create(url: 'http:www.//unicorn.com',title: 'Unicorn', tags: [Tag.first_or_create(name: 'unicorns')])
   end
